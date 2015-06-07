@@ -626,12 +626,14 @@ function HelpItem_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 %msgbox({'(1) Pease input the correct GSE code or you also can Open a GSE file with .txt format.Then you can click Submit to show the information about the GSE.';
 %    '(2) Select the group of GSM by choose the SourceName and Characteristics,the selected GSM will show in the Selected listbox.If you identify the information ,you can click Next.If there is some wrong?you can click Reset and repeat the first step.'});
-helpdlg({'(1) Pease input the correct GSE code or you also can Open a GSE file with .txt format.Then you can click Submit to show the information about the GSE.More information will show in the console.';
-    '(2) Select the group of GSM by choose the SourceName and Characteristics,the selected GSM will show in the Selected listbox.If you identify the information ,you can click Next.If there is some wrong?you can click Reset and repeat the first step.'});
+helpdlg({'(1) Please input the correct GSE code or you also can Open a GSE file with .txt format.';
+    '(2) Select the group of GSM by choose the SourceName and Characteristics,the selected GSM will show in the Selected listbox.';
+    '(3)Follow the steps to screen the Gene.';
+    '(4)Follow the steps to calculate and then save the result.'});
 
 % --------------------------------------------------------------------
 function about_Callback(hObject, eventdata, handles)
 % hObject    handle to about (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-helpdlg('Version:  0.1.5');
+helpdlg('Version:  0.1.0');
